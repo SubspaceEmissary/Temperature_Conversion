@@ -9,6 +9,7 @@ elif i_convention.upper() == "F":
     result = int(round(degree - 32 * 5 / 9))
     o_convention = "Celsius"
 else:
-    print("Input proper convention.")
+    print("Input proper convention. Modified:")
+    ###
     quit()
 print(f"The temperature in {o_convention} is {result} degrees.")
