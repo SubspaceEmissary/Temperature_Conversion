@@ -9,7 +9,11 @@ class Stream(ABC):
         pass
 
 class FileStream(Stream):
-    pass 
+    def __init__(self):
+        super.__init__
+        
 
 class NetworkStream(Stream): 
     pass
+
+dic1 = {}
